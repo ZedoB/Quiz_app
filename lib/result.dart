@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/quiz.dart';
 
 import 'data/questions.dart';
-import 'home.dart';
 
 class Result extends StatelessWidget {
   const Result(this.selectedAns, this.restart, {super.key});
