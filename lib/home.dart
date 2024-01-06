@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  Home(this.switchScreen, {super.key});
+  const Home(this.switchScreen, {super.key});
 
   final void Function() switchScreen;
 
@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
               foregroundColor: Colors.white
             ),
               onPressed: switchScreen, label: const Text("Start quiz"),
-          icon: Icon(Icons.arrow_right_alt_outlined),)
+          icon: const Icon(Icons.arrow_right_alt_outlined),)
         ],
       ),
     );
